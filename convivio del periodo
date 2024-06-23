@@ -1,0 +1,22 @@
+AlgAlgoritmo ConvivioFinalPeriodo
+
+Definir haySalud, sePasaronClases, hayBuenaVibra como Entero
+Definir seLograConvivio como Logico
+
+Escribir "¿Hay salud? (1: Sí, 0: No): "
+Leer haySalud
+Escribir "¿Se pasaron las clases? (1: Sí, 0: No): "
+Leer sePasaronClases
+Escribir "¿Hay buena vibra? (1: Sí, 0: No): "
+Leer hayBuenaVibra
+
+
+seLograConvivio <- haySalud = 1 O sePasaronClases = 1 O hayBuenaVibra = 1
+
+Si seLograConvivio Entonces
+	Escribir "Se logrará hacer el convivio al final del período."
+Sino
+	Escribir "No se logrará hacer el convivio al final del período."
+FinSi
+
+FinAlgoritmo
