@@ -1,0 +1,39 @@
+Algoritmo PromedioPeriodo
+
+    Definir cantidadClases, i como Entero
+    Definir sumaNotas, promedio como Real
+    Definir nombreAsignatura como Cadena
+    Definir notaFinal como Real
+
+    Escribir "Ingrese la cantidad de clases cursadas: "
+    Leer cantidadClases
+	
+
+    sumaNotas <- 0
+	
+   
+    Dimension nombres[cantidadClases]
+    Dimension notas[cantidadClases]
+
+    Para i <- 1 Hasta cantidadClases Hacer
+        Escribir "Ingrese el nombre de la asignatura ", i, ": "
+        Leer nombres[i]
+        Escribir "Ingrese la nota final de ", nombres[i], ": "
+        Leer notas[i]
+        // Acumular la suma de las notas
+        sumaNotas <- sumaNotas + notas[i]
+    FinPara
+	
+
+    promedio <- sumaNotas / cantidadClases
+	
+
+    Escribir "Nombre de las asignaturas y sus notas:"
+    Para i <- 1 Hasta cantidadClases Hacer
+        Escribir nombres[i], ": ", notas[i]
+    FinPara
+	
+
+    Escribir "El promedio del período es: ", promedio
+	
+FinAlgoritmo
