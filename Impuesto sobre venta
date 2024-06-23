@@ -1,0 +1,22 @@
+Algoritmo CalcularImpuestoSobreVenta
+
+    Definir subtotal, ISV, total como Real
+    Definir tasaISV como Real
+	
+
+    tasaISV <- 0.15
+	
+
+    Escribir "Ingrese el subtotal de la factura: "
+    Leer subtotal
+	
+  
+    ISV <- subtotal * tasaISV
+    total <- subtotal + ISV
+	
+  
+    Escribir "Subtotal: ", subtotal
+    Escribir "ISV (15%): ", ISV
+    Escribir "Total: ", total
+	
+FinAlgoritmo
