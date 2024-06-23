@@ -1,0 +1,35 @@
+Algoritmo OperacionMatematica
+    
+    Definir Num1, Num2, Num3, Num4, resultado como Real
+	
+   
+    Escribir "Ingrese el valor de Num1: "
+    Leer Num1
+
+    Repetir
+        Escribir "Ingrese el valor de Num2 (no puede ser cero): "
+        Leer Num2
+        Si Num2 = 0 Entonces
+            Escribir "Num2 no puede ser cero. Por favor, ingrese un valor diferente."
+        FinSi
+    Hasta Que Num2 <> 0
+	
+
+    Repetir
+        Escribir "Ingrese el valor de Num3 (no puede ser cero): "
+        Leer Num3
+        Si Num3 = 0 Entonces
+            Escribir "Num3 no puede ser cero. Por favor, ingrese un valor diferente."
+        FinSi
+    Hasta Que Num3 <> 0
+	
+    Escribir "Ingrese el valor de Num4: "
+    Leer Num4
+	
+   
+    resultado <- Num1 + Num2 * Num3 - Num4
+	
+ 
+    Escribir "El resultado de la operación ", Num1, " + ", Num2, " * ", Num3, " - ", Num4, " es: ", resultado
+	
+FinAlgoritmo
