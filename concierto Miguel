@@ -1,0 +1,26 @@
+Algoritmo DisfrutarConciertoLuisMiguel
+    
+    Definir hayTiempo, hayDineroGeneral, hayDineroVIP, hayClasesIntroduccion como Entero
+    Definir puedeIrAlConcierto como Logico
+	
+
+    Escribir "¿Hay tiempo de ir al concierto? (1: Sí, 0: No): "
+    Leer hayTiempo
+    Escribir "¿Hay dinero para la entrada general? (1: Sí, 0: No): "
+    Leer hayDineroGeneral
+    Escribir "¿Hay dinero para la entrada VIP? (1: Sí, 0: No): "
+    Leer hayDineroVIP
+    Escribir "¿Hay clases de Introducción? (1: Sí, 0: No): "
+    Leer hayClasesIntroduccion
+	
+
+    puedeIrAlConcierto <- hayTiempo = 1 Y (hayDineroGeneral = 1 O hayDineroVIP = 1) Y NO(hayClasesIntroduccion = 1)
+	
+
+    Si puedeIrAlConcierto Entonces
+        Escribir "Podrás disfrutar del concierto de Luis Miguel."
+    Sino
+        Escribir "No podrás disfrutar del concierto de Luis Miguel."
+    FinSi
+	
+FinAlgoritmo
