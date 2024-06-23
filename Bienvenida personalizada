@@ -1,0 +1,13 @@
+Algoritmo SaludoPersonalizado
+    
+    Definir nombre, apellido como Cadena
+	
+   
+    Escribir "Ingrese su nombre: "
+    Leer nombre
+    Escribir "Ingrese su apellido: "
+    Leer apellido
+	
+    Escribir "¡Hola, ", nombre, " ", apellido, "! Bienvenido(a) ala clase de introduccion al desarollo de aplicaciones web."
+	
+FinAlgoritmo
