@@ -1,0 +1,18 @@
+Algoritmo CompararLetras
+    
+    Definir letra1, letra2 como Caracter
+	
+    
+    Escribir "Ingrese la primera letra: "
+    Leer letra1
+    Escribir "Ingrese la segunda letra: "
+    Leer letra2
+	
+    
+    Si letra1 > letra2 Entonces
+        Escribir "La primera letra (", letra1, ") es más grande que la segunda letra (", letra2, ")."
+    Sino
+        Escribir "La primera letra (", letra1, ") no es más grande que la segunda letra (", letra2, ")."
+    FinSi
+	
+FinAlgoritmo
